@@ -1,0 +1,21 @@
+{
+  "name": "get-city",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "get-city": "./bin/cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "colors": "^1.1.2",
+    "iconv-lite": "^0.4.13",
+    "request": "^2.74.0",
+    "yargs": "^5.0.0"
+  }
+}
